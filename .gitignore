@@ -1,0 +1,29 @@
+# 构建产物副本（index.html 是发布版）
+hero-sample.html
+
+# 版本备份
+backups/
+
+# 原始素材（体积大，且已内嵌 / 转码进 assets）
+素材/
+
+# 本地截图与临时文件
+*.png
+
+# 图片已内嵌进 index.html，源图不入库
+assets/*.jpg
+assets/*.webp
+
+# 临时脚本
+prep_repo.py
+updream-*.md
+
+# 构建脚本与模板
+hero.tpl.html
+build_hero.py
+
+# 系统
+.DS_Store
+Thumbs.db
+.chrome-tmp/
+*.log
